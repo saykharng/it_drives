@@ -34,4 +34,4 @@ class SteeringControl:
 STEER = SteeringControl(settings.MAX_INPUT, settings.MAX_OUTPUT)
 
 if __name__ == "__main__":
-    steer.control()
+    STEER.control()

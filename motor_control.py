@@ -87,5 +87,5 @@ class MotorControl:
 MOTOR = MotorControl(settings.PWM_PIN, settings.IN1_PIN, settings.IN2_PIN)
 
 if __name__ == "__main__":
-    motor.setup()
-    motor.run_motor()
+    MOTOR.setup()
+    MOTOR.initialize()
